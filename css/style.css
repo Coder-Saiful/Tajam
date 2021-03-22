@@ -1,0 +1,885 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:visited {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+}
+
+/*Typography end*/
+
+/*Menu part css start*/
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0;
+    margin-right: 22px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+    color: #00e0d0;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.menu_bg {
+    background: #101130;
+}
+
+.openNav {
+    color: white;
+    font-size: 23px;
+    display: none;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #101130;
+    z-index: 99999;
+    display: none;
+}
+
+.overlay_top {
+    padding: 30px 22px;
+    margin-bottom: 10px;
+}
+
+.closeNav {
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    top: 30px;
+    right: 35px;
+}
+
+.openNav:hover,
+.closeNav:hover {
+    color: white;
+}
+
+.overlay_content ul li a {
+    margin-right: 0 !important;
+    padding: 10px 0 !important;
+    font-size: 15px !important;
+    padding-left: ;
+    text-align: center;
+}
+
+/*Menu part css end*/
+
+/*Banner part css start*/
+
+#banner_part {
+    overflow: hidden;
+    background: url(../img/banner_bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-top: 225px;
+    padding-bottom: 205px;
+}
+
+#banner_part:before,
+#video_part:before,
+#team_part:before,
+#testimonial_part:before,
+#footer_part:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, right top, from(#100B2F), to(#301E56));
+    background: -o-linear-gradient(left, #100B2F, #301E56);
+    background: linear-gradient(to right, #100B2F, #301E56);
+    top: 0;
+    left: 0;
+    opacity: 0.85;
+}
+
+.banner_text h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 32px;
+    color: white;
+    text-transform: capitalize;
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 24px;
+}
+
+.banner_text h2:before {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: #00E0D0;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.banner_text p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0 202px;
+    line-height: 24px;
+}
+
+.banner_text a,
+.about_text a,
+.team_text_bottom a,
+.project_text_bottom a,
+.contact_submit_button {
+    color: #00e0d0;
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 1px solid #00e0d0;
+    display: inline-block;
+    padding: 7px 14px;
+    border-radius: 3px;
+    margin-top: 30px;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.banner_text a:hover,
+.about_text a:hover,
+.team_text_bottom a:hover,
+.project_text_bottom a:hover,
+.contact_submit_button:hover {
+    color: black;
+    background: #00e0d0;
+}
+
+.banner_slider .slick-dots {
+    position: absolute;
+    bottom: -170px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.banner_slider .slick-dots li {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    border: 1px solid #00E0D0;
+    margin-right: 6px;
+    border-radius: 50%;
+}
+
+.banner_slider .slick-dots li:last-child {
+    margin-right: 0;
+}
+
+.banner_slider .slick-dots li button {
+    color: transparent;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.banner_slider .slick-dots li.slick-active {
+    background: #00E0D0;
+}
+
+/*Banner part css end*/
+
+/*About part css start*/
+
+#about_part {
+    padding: 70px 0;
+    overflow: hidden;
+}
+
+.about_text h2 {
+    color: #413d4b;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.about_text p {
+    color: #413d4b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 25px;
+    padding-right: 113px;
+}
+
+.about_text a {
+    margin-top: 8px;
+}
+
+/*About part css end*/
+
+/*Video part css start*/
+
+#video_part {
+    overflow: hidden;
+    background: url(../img/video_bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 200px 0;
+    background-attachment: fixed;
+}
+
+.video_content i {
+    width: 100px;
+    height: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+    color: white;
+    font-size: 45px;
+    line-height: 98px;
+}
+
+.video_content h4 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+/*Video part css end*/
+
+/*Service part css start*/
+
+#service_part {
+    overflow: hidden;
+    padding: 70px 0px 100px 0px;
+}
+
+.service_head h2,
+.team_head h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #413d4b;
+    text-transform: uppercase;
+}
+
+.service_head p,
+.team_head p {
+    color: #2f2d35;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    position: relative;
+    padding-bottom: 18px;
+    margin-bottom: 0;
+}
+
+.service_head p:before,
+.team_head p:before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background: #C6C4C9;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.service_text {
+    margin-top: 80px;
+}
+
+.service_text img {
+    margin-bottom: 30px;
+}
+
+.service_text h3 {
+    color: #413d4b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+}
+
+.service_text p {
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 0 52px;
+    margin-bottom: 0;
+}
+
+/*Service part css end*/
+
+/*Team part css start*/
+
+#team_part {
+    overflow: hidden;
+    background: url(../img/team_bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 70px 0;
+}
+
+.team_head h2 {
+    color: white;
+    word-spacing: 4px;
+}
+
+.team_head p {
+    color: white;
+    margin-bottom: 45px;
+}
+
+.team_head p:before {
+    background: #655C80;
+}
+
+.team_image img {
+    height: 230px;
+}
+
+.team_info {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.team_info h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    padding-top: 21px;
+}
+
+.team_info h6 {
+    color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.team_text_bottom p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    margin-top: 60px;
+}
+
+.team_text_bottom a {
+    margin-top: 10px;
+}
+
+/*Team part css end*/
+
+/*Project part css start*/
+
+#project_part {
+    padding: 70px 0;
+    overflow: hidden;
+}
+
+.project_text_top {
+    padding-bottom: 70px;
+}
+
+.project_top_left h2 {
+    color: #413d4b;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.project_top_right a {
+    color: #413d4b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.project_top_right a i {
+    padding-left: 10px;
+}
+
+.project_text_bottom a {
+    padding: 7px 25px;
+    margin-top: 70px;
+}
+
+/*Project part css end*/
+
+/*Testimonial part css start*/
+
+#testimonial_part {
+    overflow: hidden;
+    background: url(../img/testimonial_bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 70px 0;
+}
+
+.testimonial_text i {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 34px;
+}
+
+.testimonial_text p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    line-height: 27px;
+    padding: 0 184px;
+    margin-bottom: 50px;
+}
+
+.testimonial_text h4 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.testimonial_text h6 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 44px;
+}
+
+.slide_image {
+    width: 410px;
+    margin: 0 auto;
+}
+
+.testimonial_slider_image {
+    padding: 16px 0;
+}
+
+.testimonial_slider_image img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+#testimonial_part .slide_image .slick-center {
+    -webkit-transform: scale(1.5) rotate(360deg);
+    -ms-transform: scale(1.5) rotate(360deg);
+    transform: scale(1.5) rotate(360deg);
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.testimonial_slider_arrow_left {
+    color: white;
+    bottom: 30px;
+    font-size: 30px;
+    left: 335px;
+    z-index: 99;
+    cursor: pointer;
+    position: absolute;
+}
+
+.testimonial_slider_arrow_right {
+    position: absolute;
+    color: white;
+    bottom: 30px;
+    font-size: 30px;
+    right: 326px;
+    z-index: 99;
+    cursor: pointer;
+}
+
+/*Testimonial part css end*/
+
+/*Contact part css start*/
+
+#contact_part {
+    padding: 70px 0px;
+    overflow: hidden;
+}
+
+.contact_left h2,
+.contact_right h2 {
+    color: #413d4b;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    margin-bottom: 35px;
+}
+
+.same_contact_field {
+    color: #413d4b;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #E5E5E5;
+    border-radius: 0;
+    padding: 22px 18px;
+    margin-bottom: 24px;
+}
+
+.same_contact_field:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #00E0D0;
+}
+
+.contact_submit_button {
+    background: transparent;
+    padding: 7px 33px;
+    margin-top: 0;
+}
+
+#message_box {
+    padding: 15px 18px;
+    resize: none;
+}
+
+.logo_image {
+    margin-bottom: 48px;
+}
+
+/*Contact part css end*/
+
+/*Footer part css start*/
+
+#footer_part {
+    overflow: hidden;
+    background: url(../img/footer_bg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 70px 0;
+}
+
+.footer_top_left img {
+    margin-bottom: 25px;
+}
+
+.footer_top_left p,
+.footer_middle_info p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    padding-right: 63px;
+}
+
+.footer_top_middle h2,
+.footer_top_right h2 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.footer_middle_text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.footer_middle_icon {
+    color: white;
+    margin-right: 12px;
+}
+
+.footer_top_right_input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: white !important;
+    background: transparent !important;
+    border: 1px solid white;
+    padding: 10px 94px 10px 15px;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.footer_top_right_input:focus {
+    border-color: #00E0D0;
+}
+
+.footer_top_right form ::-webkit-input-placeholder {
+    color: white;
+}
+
+.footer_top_right form ::-moz-placeholder {
+    color: white;
+}
+
+.footer_top_right form :-ms-input-placeholder {
+    color: white;
+}
+
+.footer_top_right form ::-ms-input-placeholder {
+    color: white;
+}
+
+.footer_top_right form ::placeholder {
+    color: white;
+}
+
+.footer_top_right form {
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.footer_submit_button {
+    border: none;
+    font-size: 20px;
+    padding: 6px 25px;
+    background: rgba(255, 255, 255, 0.6);
+    margin-left: 10px;
+}
+
+.footer_social_icon {
+    margin-top: 30px;
+}
+
+.footer_social_icon a {
+    width: 37px;
+    height: 37px;
+    display: inline-block;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 6px;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.footer_social_icon a:hover {
+    color: #ea4c89;
+    border-color: #ea4c89;
+}
+
+.footer_bottom_left ul {
+    margin-bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.footer_bottom_left ul li {
+    margin-right: 30px;
+}
+
+.footer_bottom_left ul li:last-child {
+    margin-right: 0;
+}
+
+.footer_bottom_left ul li a {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.footer_bottom_right p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.footer_bottom_wrap {
+    margin-top: 45px;
+}
+
+/*Footer part css end*/
+
+/*Scroll to top css start*/
+
+.scroll_to_top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #e1137b;
+    color: #e1137b;
+    font-size: 22px;
+    text-align: center;
+    line-height: 33px;
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    display: none;
+    z-index: 999;
+}
+
+.scroll_to_top:hover {
+    background: #e1137b;
+    color: white;
+
+}
+
+/*Scroll to top css end*/
+
+/*Preloader css start*/
+
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 999999;
+}
+
+.spinner {
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.spinner > div {
+    background-color: #3f3166;
+    height: 100%;
+    width: 6px;
+    display: inline-block;
+    -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+
+    0%,
+    40%,
+    100% {
+        -webkit-transform: scaleY(0.4)
+    }
+
+    20% {
+        -webkit-transform: scaleY(1.0)
+    }
+}
+
+@keyframes sk-stretchdelay {
+
+    0%,
+    40%,
+    100% {
+        transform: scaleY(0.4);
+        -webkit-transform: scaleY(0.4);
+    }
+
+    20% {
+        transform: scaleY(1.0);
+        -webkit-transform: scaleY(1.0);
+    }
+}
+
+/*Preloader css end*/

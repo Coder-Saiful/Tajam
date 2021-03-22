@@ -1,0 +1,374 @@
+
+
+@media (max-width: 400px) {
+    .testimonial_slider_arrow_left {
+        left: 15px !important;
+    }
+
+    .testimonial_slider_arrow_right {
+        right: 15px !important;
+    }
+
+    .footer_top_right form {
+        -webkit-box-orient: vertical !important;
+        -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+        flex-direction: column !important;
+    }
+
+    .footer_submit_button {
+        margin-left: 0 !important;
+        margin-top: 12px !important;
+    }
+
+}
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    .banner_text p,
+    .testimonial_text p {
+        padding: 0;
+    }
+
+    #banner_part {
+        padding-top: 155px;
+        padding-bottom: 90px;
+    }
+
+    .banner_slider .slick-dots {
+        bottom: -87px;
+    }
+
+    .about_text h2 {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .about_text p {
+        padding-right: 0;
+        text-align: justify;
+    }
+
+    #about_part,
+    #service_part,
+    #team_part,
+    #project_part,
+    #testimonial_part,
+    #contact_part,
+    #footer_part {
+        padding: 50px 0;
+    }
+
+    #video_part {
+        padding: 110px 0;
+    }
+
+    .video_content i {
+        width: 80px;
+        height: 80px;
+        font-size: 37px;
+        line-height: 76px;
+    }
+
+    .service_text {
+        margin-top: 55px;
+    }
+
+    .service_text p {
+        padding: 0;
+    }
+
+    .team_image img {
+        height: auto;
+        width: 100%;
+    }
+
+    .team_text_bottom p {
+        margin-top: 50px;
+    }
+
+    .project_text_top {
+        padding-bottom: 50px;
+    }
+
+    .project_top_left h2 {
+        text-align: center;
+    }
+
+    .project_top_right a {
+        display: block;
+        text-align: center;
+        margin-top: 12px;
+    }
+
+    .project_text_bottom a {
+        margin-top: 50px;
+    }
+
+    .testimonial_slider_arrow_left {
+        left: 30px;
+    }
+
+    .testimonial_slider_arrow_right {
+        right: 30px;
+    }
+
+    .contact_left h2 {
+        text-align: center;
+    }
+
+    .contact_right h2 {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .logo_image {
+        text-align: center;
+    }
+
+    .Logo {
+        margin-bottom: 0;
+    }
+
+    .footer_top_middle h2,
+    .footer_top_right h2 {
+        margin-top: 40px;
+    }
+
+    .footer_bottom_left ul {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .footer_bottom_right p {
+        text-align: center;
+    }
+
+    .footer_top_left p,
+    .footer_middle_info p {
+        padding-right: 0;
+    }
+
+    .footer_top_left,
+    .footer_top_middle,
+    .footer_top_right {
+        text-align: center;
+    }
+
+    .footer_top_right form {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .slide_image {
+        width: 290px;
+        margin: 0 auto;
+    }
+
+    .openNav {
+        display: block;
+    }
+
+}
+
+
+
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .banner_text p,
+    .testimonial_text p {
+        padding: 0;
+    }
+
+    #banner_part {
+        padding-top: 155px;
+        padding-bottom: 90px;
+    }
+
+    .banner_slider .slick-dots {
+        bottom: -87px;
+    }
+
+    .about_text h2 {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .about_text p {
+        padding-right: 0;
+        text-align: justify;
+    }
+
+    #about_part,
+    #service_part,
+    #team_part,
+    #project_part,
+    #testimonial_part,
+    #contact_part,
+    #footer_part {
+        padding: 50px 0;
+    }
+
+    #video_part {
+        padding: 110px 0;
+    }
+
+    .video_content i {
+        width: 80px;
+        height: 80px;
+        font-size: 37px;
+        line-height: 76px;
+    }
+
+    .service_text {
+        margin-top: 55px;
+    }
+
+    .service_text p {
+        padding: 0;
+    }
+
+    .team_text_bottom p {
+        margin-top: 50px;
+    }
+
+    .project_text_top {
+        padding-bottom: 50px;
+    }
+
+    .project_text_bottom a {
+        margin-top: 50px;
+    }
+
+    .testimonial_slider_arrow_left {
+        left: 40px;
+    }
+
+    .testimonial_slider_arrow_right {
+        right: 30px;
+    }
+
+    .contact_left h2 {
+        text-align: center;
+    }
+
+    .contact_right h2 {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .logo_image {
+        text-align: center;
+    }
+
+    .footer_top_middle h2,
+    .footer_top_right h2 {
+        margin-top: 40px;
+    }
+
+    .footer_bottom_left ul {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .footer_bottom_right p {
+        text-align: center;
+    }
+
+    .footer_top_left p,
+    .footer_middle_info p {
+        padding-right: 0;
+    }
+
+    .openNav {
+        display: block;
+    }
+
+
+}
+
+
+
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+    .banner_text p,
+    .testimonial_text p {
+        padding: 0;
+    }
+
+    .about_text h2 {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .about_text p {
+        padding-right: 0;
+        text-align: justify;
+    }
+
+    .testimonial_slider_arrow_left {
+        left: 125px;
+    }
+
+    .testimonial_slider_arrow_right {
+        right: 116px;
+    }
+
+    .footer_top_middle h2,
+    .footer_top_right h2 {
+        margin-top: 40px;
+    }
+
+    .openNav {
+        display: block;
+    }
+
+}
+
+
+
+
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .testimonial_slider_arrow_left {
+        left: 245px;
+    }
+
+    .testimonial_slider_arrow_right {
+        right: 235px;
+    }
+
+    .overlay {
+        display: none !important;
+    }
+
+}
+
+
+
+
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+    .overlay {
+        display: none !important;
+    }
+
+}
